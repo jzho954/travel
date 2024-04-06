@@ -1,0 +1,56 @@
+.footer {
+  padding: 4rem 6rem;
+  background: #000;
+  color: #fff;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  flex-wrap: wrap;
+}
+
+.top i {
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.top i:hover {
+  color: #f1c40f;
+  transition: 0.2s ease-in;
+}
+
+.bottom {
+  padding: 2rem 0rem;
+  display: flex; /* Add display flex to the bottom div */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Arrange items vertically */
+}
+
+.bottom div {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom h4 {
+  font-size: 1.3rem;
+  padding: 1rem 0.8;
+  margin-bottom: 10px;
+}
+
+.bottom a {
+  color: #f1c40f;
+  text-decoration: none;
+  padding: 1rem 0;
+  font-size: 1rem;
+}
+
+.bottom a:hover {
+  background-color: #ce1126;
+  transition: 0.3s ease-in;
+  border-radius: 5px;
+}

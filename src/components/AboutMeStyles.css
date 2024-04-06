@@ -1,0 +1,16 @@
+.about-container {
+  margin: 4rem auto;
+  text-align: start;
+  width: 50%;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Align children vertically */
+  align-items: center; /* Center items horizontally */
+}
+.about-container h1 {
+  padding-bottom: 1rem;
+}
+
+.about-container p {
+  padding-bottom: 2rem;
+  width: 100%;
+}

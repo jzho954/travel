@@ -1,0 +1,100 @@
+.country {
+  margin: 4rem 6rem;
+}
+
+.country h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.country h2 {
+  text-align: center;
+}
+
+.country1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
+
+.country1-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
+
+.country1-text {
+  width: 45%;
+  text-align: start;
+  font-size: 1.1rem;
+}
+country1-text h2 {
+  padding-bottom: 1rem;
+}
+
+.images {
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  z-index: -99;
+}
+
+.images img {
+  width: 49%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.1);
+}
+
+.image img:nth-child(2) {
+  position: absolute;
+  top: -10%;
+  right: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .country {
+    margin: 4rem 2rem;
+  }
+
+  .country h1 {
+    font-size: 2rem;
+  }
+
+  .country1 {
+    display: flex;
+    margin-top: 2.5rem;
+    flex-direction: column-reverse;
+  }
+
+  .country1-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+
+    margin-top: 4.5rem;
+  }
+
+  .country1-text {
+    width: 100%;
+  }
+
+  .country1-text h2 {
+    padding-bottom: 1rem;
+  }
+
+  .image {
+    width: 100%;
+    margin-top: 2rem 0;
+    flex-direction: column;
+  }
+
+  .image img {
+    height: 250px;
+  }
+}
