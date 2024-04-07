@@ -1,4 +1,5 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
+import React, { useEffect } from 'react';
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./routes/Home";
@@ -10,6 +11,7 @@ import Thailand from "./routes/Thailand";
 import Korea from "./routes/Korea";
 
 function App() {
+  
   return (
     <div className="App">
       <Routes>

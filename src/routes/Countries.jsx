@@ -4,12 +4,16 @@ import AboutImage from '../assets/thai1.jpg';
 import Footer from '../components/Footer';
 import Trip from '../components/Trip';
 import CountryList from '../components/CountryList';
+import { useLocation } from 'react-router-dom';
 
 const Countries = () => {
-  
+  const {location} = useLocation();
+
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 0);
+  }, [location]);
 
   return (
     <>
