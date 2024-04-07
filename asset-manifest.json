@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/travel/static/css/main.e8a74bfe.css",
+    "main.js": "/travel/static/js/main.b9b1a5a3.js",
+    "static/media/col2.jpg": "/travel/static/media/col2.478288ef213d37d491a2.jpg",
+    "static/media/thai.jpg": "/travel/static/media/thai.6115ab1910b532be9dd3.jpg",
+    "static/media/vietnam1.jpg": "/travel/static/media/vietnam1.85c261c744792c734cd5.jpg",
+    "static/media/thai1.jpg": "/travel/static/media/thai1.301d18423aa4fad66e22.jpg",
+    "static/media/viet6.png": "/travel/static/media/viet6.4937c643a05f45583507.png",
+    "static/media/viet5.png": "/travel/static/media/viet5.4d5b13e0bd4ac7e3f477.png",
+    "static/media/thai2.jpg": "/travel/static/media/thai2.4ddd11379f2e5631db23.jpg",
+    "static/media/korea2.jpg": "/travel/static/media/korea2.4863b53d21b0d10f9fbf.jpg",
+    "static/media/colombia1.jpg": "/travel/static/media/colombia1.6a2ad128a660f7d81102.jpg",
+    "static/media/contact.jpg": "/travel/static/media/contact.b55b1d1e9a844b8f4fb4.jpg",
+    "static/media/vietnam2.jpg": "/travel/static/media/vietnam2.66d95608bc1752b9996d.jpg",
+    "static/media/italy1.jpg": "/travel/static/media/italy1.baf7603a36a8eee9c9c0.jpg",
+    "static/media/thai5.png": "/travel/static/media/thai5.63a3504f5f1e7d16abad.png",
+    "static/media/korea4.jpg": "/travel/static/media/korea4.f1d6110d84bb6f13895f.jpg",
+    "static/media/thai6.png": "/travel/static/media/thai6.8c5aeaa1f06a498c5908.png",
+    "static/media/italy2.jpg": "/travel/static/media/italy2.73b5fa072879990d8ce3.jpg",
+    "static/media/thai3.jpg": "/travel/static/media/thai3.011414ddd20b8806f63c.jpg",
+    "static/media/korea5.jpg": "/travel/static/media/korea5.52c096bf0e9800e54965.jpg",
+    "static/media/viet3.jpg": "/travel/static/media/viet3.62c43c4c62b46e0b3f35.jpg",
+    "static/media/col1.jpg": "/travel/static/media/col1.697594089eff368fabf0.jpg",
+    "static/media/korea1.jpg": "/travel/static/media/korea1.b912fbbd4ae63ad8f06f.jpg",
+    "index.html": "/travel/index.html",
+    "main.e8a74bfe.css.map": "/travel/static/css/main.e8a74bfe.css.map",
+    "main.b9b1a5a3.js.map": "/travel/static/js/main.b9b1a5a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8a74bfe.css",
+    "static/js/main.b9b1a5a3.js"
+  ]
+}
