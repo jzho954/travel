@@ -45,6 +45,10 @@ img {
   -webkit-text-fill-color: transparent;
 }
 
+.hero-text span{
+  font-size: 3rem;
+}
+
 .hero-text p {
   border-radius: 10px;
 
@@ -68,6 +72,13 @@ img {
 .hero-contact {
   height: 1000px;
 }
+
+.hero-contact .hero-text .scroll-button:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.3s ease-in;
+}
+
 /* ---------------*/
 
 /* Vietnam section*/

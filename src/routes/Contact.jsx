@@ -5,6 +5,12 @@ import Hero from '../components/Hero'
 import ContactForm from '../components/ContactForm'
 
 const Contact = () => {
+  const scrollToVideo = () => {
+    const countryInfoElement = document.querySelector('.form-container');
+    if (countryInfoElement) {
+      countryInfoElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -18,7 +24,9 @@ const Contact = () => {
         
         
         url = "/countries"
-        btnClass ="hide"
+        scrollToVideo={scrollToVideo}
+        showButton={true} 
+        btnInfo="Click here"
         />
         </div>
         

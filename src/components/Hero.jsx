@@ -13,12 +13,13 @@ const Hero = (props) => {
                 {props.text}
             </p>
             {props.showButton && (
-          <button className="scroll-button" onClick={props.scrollToVideo}>Scroll to Video</button>
-        )}
+                <button className="scroll-button" onClick={props.scrollToVideo}>
+                    {props.btnInfo || "Scroll to Video"} 
+                </button>
+            )}
             <a href={props.url} className={props.btnClass}>
                 {props.btnText}
             </a>
-            
         </div>
     </div>
   )

@@ -16,7 +16,7 @@ const Home = () => {
         cName="hero"
         heroImage={AboutImage}
         title="Welcome to my travel website"
-        text="medellin es una chimba"
+        text={<span role="img" aria-label="Colombia Flag">🇨🇴</span>}
         btnText = "See where I've been"
         url = "/countries"
         btnClass ="show"
