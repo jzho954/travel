@@ -13,7 +13,7 @@ const CountryInfo = (props) => {
           <iframe src={props.videoUrl} title={props.videoTitle} allowFullScreen></iframe>
         </div>
 
-        <div className='viet-image'>
+        <div className='country-image'>
           {props.image1 && <img src={props.image1} alt="Image 1" />}
           {props.image2 && <img src={props.image2} alt="Image 2" />}
           {props.image3 && <img src={props.image3} alt="Image 3" />}

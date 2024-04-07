@@ -30,7 +30,7 @@ const Korea = () => {
     cName="korea-hero"
     heroImage={AboutImage}
     title="Korea"
-    text={<span>Visited: Dec 28th 2023 - Feb 2nd 2024<br /> <span style={{ fontSize: '2rem' }}>🇰🇷</span></span>}
+    text={<span>Visited: Feb 18th 2024 - March 3rd 2024<br /> <span style={{ fontSize: '2rem' }}>🇰🇷</span></span>}
     url = "/korea"
     scrollToVideo={scrollToVideo}
         showButton={true} 

@@ -45,7 +45,7 @@ img {
   -webkit-text-fill-color: transparent;
 }
 
-.hero-text span{
+.hero-text span {
   font-size: 3rem;
 }
 
@@ -100,6 +100,10 @@ img {
 /* ---------------*/
 
 /* Thailand section*/
+.thai-hero {
+  position: relative; /* Ensure the hero section is a positioned container */
+  
+}
 .thai-hero .hero-text .scroll-button:hover {
   background-color: #a51931; /* Thai color */
   color: #f4f5f8; /* Thai color */
@@ -144,7 +148,9 @@ img {
   transition: 0.3s ease-in;
 }
 
-@media screen and (max-width: 800px) {
+/*/ small screen/*/
+@media screen and (max-width: 850px) {
+  
   .hero-text h1 {
     padding: 10px 20px;
     font-size: 2rem;
@@ -159,4 +165,23 @@ img {
     border-radius: 6px;
     font-size: 1rem;
   }
+
+/* Thai section */
+  .thai-hero{
+    height: 100vh;
+  }
+  .thai-hero .hero-text {
+    top: 70%; 
+  }
+
+  /* Viet secion */
+  .vietnam-hero {
+    height: 100vh;
+  }
+
+  
+  
+
+  
+  
 }

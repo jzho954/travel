@@ -58,6 +58,8 @@ country1-text h2 {
   right: 0;
 }
 
+
+/*/ small screen/*/
 @media screen and (max-width: 800px) {
   .country {
     margin: 4rem 2rem;

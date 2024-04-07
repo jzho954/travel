@@ -7,7 +7,7 @@ import Trip from '../components/Trip'
 import Footer from '../components/Footer'
 const Home = () => {
   useEffect(() => {
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: 0, behavior: 'instant' });
   }, []);
   return (
     <>

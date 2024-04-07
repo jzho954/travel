@@ -10,8 +10,9 @@ const Countries = () => {
   const {location} = useLocation();
 
   useEffect(() => {
+    
     setTimeout(() => {
-      window.scrollTo(0, 0);
+      window.scrollTo({ top: 0, behavior: 'instant' });
     }, 0);
   }, [location]);
 

@@ -20,8 +20,8 @@
   border-radius: 7px;
   cursor: pointer;
   padding: 1rem 0.8rem;
-  text-decoration: none; /* Remove underline */
-  color: inherit; /* Inherit text color from parent */
+  text-decoration: none; 
+  color: inherit; 
 }
 .t-card:hover h4 {
   transform: translateY(-5px);
@@ -51,6 +51,9 @@
   font-size: 1.3rem;
   padding: 0.9rem 0 0.2rem 0;
 }
+
+
+/*/ small screen/*/
 
 @media screen and (max-width: 850px) {
   .trip {

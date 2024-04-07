@@ -1,24 +1,32 @@
-/* CountryInfoStyles.css */
+
 .country-info {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center horizontally */
+  align-items: center; 
   padding: 2rem;
 }
 
-.country-info .viet-image {
-  display: flex; /* Set the container as a flex container */
-  padding-top: 2rem;
+.country-image {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
 }
-
-.country-info .viet-image img {
-  width: 50%; /* Each image takes up 50% of the container */
-  max-height: 350px;
+.country-image img {
+  width: 500px;
+  height: 300px;
+  margin-right: 10px; 
+  margin-bottom: 10px; 
   object-fit: cover;
   border-radius: 6px;
-  box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.1);
 }
 
-.country-info .viet-image img + img {
-  margin-left: 10px; /* Add some space between images */
+@media screen and (max-width: 850px) {
+  .country-image img {
+    width: 80%; 
+    height: auto; 
+    margin-right: 10; 
+    margin-bottom: 10px; 
+  }
 }

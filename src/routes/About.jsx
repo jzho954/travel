@@ -7,14 +7,14 @@ import AboutMe from '../components/AboutMe'
 
 
 const About = () => {
-  const {location} = useLocation();
+  const { pathname } = useLocation();
 
   useEffect(() => {
+    
     setTimeout(() => {
-      window.scrollTo(0, 0);
+      window.scrollTo({ top: 0, behavior: 'instant' });
     }, 0);
-  }, [location]);
-  
+  }, [pathname]);
   return (
     <>
         
