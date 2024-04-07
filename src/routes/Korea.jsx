@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react'
-
+import { useLocation } from 'react-router-dom';
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar';
 import AboutImage from '../assets/korea1.jpg'
@@ -16,9 +16,13 @@ const Korea = () => {
           countryInfoElement.scrollIntoView({ behavior: 'smooth' });
         }
       };
+      const {location} = useLocation();
+
       useEffect(() => {
-        window.scrollTo(0, 0);
-      }, []);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+        }, 0);
+      }, [location]);
   return (
     <>
     <Navbar/>
