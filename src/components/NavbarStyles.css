@@ -31,13 +31,18 @@
 }
 
 .nav-menu {
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   grid-template-columns: repeat(6, auto);
   grid-gap: 10px;
   list-style: none;
+  position: relative;
+  top: 7.5px;
   
 }
+
+
 
 .nav-links {
   color: #222;
@@ -48,7 +53,6 @@
   white-space: nowrap;
   border-radius: 10px;
   transition: all 0.3s ease;
-  
   
 }
 .nav-links i {

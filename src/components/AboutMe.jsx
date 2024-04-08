@@ -1,6 +1,7 @@
 import React from 'react'
 import './AboutMeStyles.css'
-
+import email from "../assets/email.svg";
+import phone from "../assets/phone.svg";
 const AboutMe = () => {
   return (
     <div className='about-container'>
@@ -17,6 +18,23 @@ const AboutMe = () => {
         <p>
         This project aims to document my travel history and future travel plans. I hope to inspire others to travel and explore the world. Additionally, I aim to improve my programming skills while enjoying traveling by consistently updating this website as I gain more life experiences and coding expertise. I am excited to see where this project takes me and what I can learn from it.
         </p>
+        <div className='reach-me'>
+        <h1>
+            How To Reach Me
+        </h1>
+        <div className='email-section'>
+          <img className='email-logo' src={email} alt="" />
+          <p> jamiezhou777@gmail.com</p>
+
+          
+        </div>
+        <div className='phone-section'>
+        <img className='phone-logo' src={phone} alt="" />
+          <p> +64 220890142</p>
+        </div>
+          
+        </div>
+        
 
         
     </div>

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { useLocation } from 'react-router-dom';
 import Footer from '../components/Footer'
 import AboutImage from '../assets/contact.jpg'
 import Hero from '../components/Hero'
@@ -11,9 +12,14 @@ const Contact = () => {
       countryInfoElement.scrollIntoView({ behavior: 'smooth' });
     }
   };
+  const {location} = useLocation();
+
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }, 0);
+  }, [location]);
   return (
     <>
     <div className="hero-contact-wrapper">
