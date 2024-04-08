@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/travel/static/css/main.e8a74bfe.css",
-    "main.js": "/travel/static/js/main.b9b1a5a3.js",
+    "main.css": "/travel/static/css/main.e2d40416.css",
+    "main.js": "/travel/static/js/main.af759ef5.js",
     "static/media/col2.jpg": "/travel/static/media/col2.478288ef213d37d491a2.jpg",
     "static/media/thai.jpg": "/travel/static/media/thai.6115ab1910b532be9dd3.jpg",
     "static/media/vietnam1.jpg": "/travel/static/media/vietnam1.85c261c744792c734cd5.jpg",
@@ -23,12 +23,14 @@
     "static/media/viet3.jpg": "/travel/static/media/viet3.62c43c4c62b46e0b3f35.jpg",
     "static/media/col1.jpg": "/travel/static/media/col1.697594089eff368fabf0.jpg",
     "static/media/korea1.jpg": "/travel/static/media/korea1.b912fbbd4ae63ad8f06f.jpg",
+    "static/media/phone.svg": "/travel/static/media/phone.dd83372e49499297b6b3c696ff8959e8.svg",
     "index.html": "/travel/index.html",
-    "main.e8a74bfe.css.map": "/travel/static/css/main.e8a74bfe.css.map",
-    "main.b9b1a5a3.js.map": "/travel/static/js/main.b9b1a5a3.js.map"
+    "static/media/email.svg": "/travel/static/media/email.da21fbcfd3cbd879892e97410a888d1d.svg",
+    "main.e2d40416.css.map": "/travel/static/css/main.e2d40416.css.map",
+    "main.af759ef5.js.map": "/travel/static/js/main.af759ef5.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8a74bfe.css",
-    "static/js/main.b9b1a5a3.js"
+    "static/css/main.e2d40416.css",
+    "static/js/main.af759ef5.js"
   ]
 }
