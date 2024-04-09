@@ -36,3 +36,32 @@
   margin-right: 2rem;
   
 }
+
+
+
+
+#pills-tab .nav-link {
+  color: #121212; /* Text color */
+  font-weight: 500; /* Font weight */
+  font-size: 18px; /* Font size */
+  padding: 10px 20px; /* Padding */
+  border-radius: 20px; /* Border radius */
+  margin: 0 10px; /* Margin */
+}
+
+#pills-tab .nav-link.active {
+  background-color: #fcd116; /* Background color */
+  color: #CE1126; /* Text color */
+}
+
+#pills-tab .first{
+  font-weight: 500;
+
+}
+
+.tab-pane-content{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5; /* Line height */
+  margin-top: 20px;
+}

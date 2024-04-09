@@ -6,6 +6,12 @@ import AboutImage from '../assets/colombia1.jpg'
 import Trip from '../components/Trip'
 import Footer from '../components/Footer'
 const Home = () => {
+  const scrollToVideo = () => {
+    const countryInfoElement = document.querySelector('.test');
+    if (countryInfoElement) {
+      countryInfoElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'instant' });
   }, []);
@@ -17,11 +23,15 @@ const Home = () => {
         heroImage={AboutImage}
         title="Welcome to my travel website"
         text={<span role="img" aria-label="Colombia Flag">🇨🇴</span>}
-        btnText = "See where I've been"
+        
         url = "/countries"
-        btnClass ="show"
+        btnInfo = "See Where I've Been"
+        scrollToVideo={scrollToVideo}
+        showButton={true} 
+        
         />
         <Country />
+        <div className='test'></div>
         <Trip />
         <Footer />
     </>
