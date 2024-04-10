@@ -14,14 +14,25 @@
   padding-bottom: 2rem;
   width: 100%;
 }
-
-
+.about-container .email-section p{
+  width:50%;
+  margin: 0;
+  
+}
+.about-container .phone-section p{
+  
+  width:70%;
+  font-size: 20px;
+  margin: 0;
+  padding: 0 10px;
+  
+}
 .reach-me {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; 
+  text-align: center;
   margin-top: 3rem;
 }
+
+
 .email-section,
 .phone-section {
   display: flex;
@@ -29,12 +40,21 @@
   margin-top: 1rem; /* Adjust margin as needed */
 }
 
+.contact-info {
+  display: flex;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+
+
 .email-logo,
 .phone-logo {
-  width: 30px;
-  height: 30;
-  margin-right: 2rem;
-  
+  width: 60px; /* Adjust size as needed */
+  margin-right: 10px;
 }
 
 
@@ -62,6 +82,7 @@
 .tab-pane-content{
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5; /* Line height */
+  
   margin-top: 20px;
 }
+

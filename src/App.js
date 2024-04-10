@@ -9,7 +9,7 @@ import Countries from "./routes/Countries";
 import Vietnam from "./routes/Vietnam";
 import Thailand from "./routes/Thailand";
 import Korea from "./routes/Korea";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   
   return (

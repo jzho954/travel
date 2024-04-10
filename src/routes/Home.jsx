@@ -5,6 +5,7 @@ import Country from '../components/Country'
 import AboutImage from '../assets/colombia1.jpg'
 import Trip from '../components/Trip'
 import Footer from '../components/Footer'
+import 'bootstrap/dist/css/bootstrap.min.css';
 const Home = () => {
   const scrollToVideo = () => {
     const countryInfoElement = document.querySelector('.test');

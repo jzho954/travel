@@ -90,6 +90,73 @@ button:hover {
   display: none;
 }
 
+/*/ Dropdown styles/*/
+
+
+
+
+.NavBarItems .custom-dropdown-toggle {
+  color: #222;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.NavBarItems .custom-dropdown-toggle:hover {
+  background-color: #fcd116;
+  color: #ce1126;
+}
+
+.NavBarItems .custom-dropdown-toggle i {
+  padding-right: 5px;
+}
+
+/* Custom styles for dropdown menu */
+.NavBarItems .custom-dropdown-menu {
+  background-color: #fff;
+  border-radius: 10px;
+  
+  
+}
+
+.NavBarItems .dropdown-container{
+background-color: #fff;
+}
+
+
+
+
+.NavBarItems .custom-dropdown-toggle{
+  background-color: #fff;
+  border-color: #fff;
+}
+.NavBarItems .custom-dropdown-toggle:hover{
+  background-color: #fff;
+  border-color: #fff;
+}
+
+
+
+.NavBarItems .custom-dropdown-menu a.dropdown-item {
+  color: #222;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  
+}
+
+.NavBarItems .custom-dropdown-menu a.dropdown-item:hover {
+  background-color: #fcd116;
+  color: #ce1126;
+}
 
 
 /*/ small screen/*/
