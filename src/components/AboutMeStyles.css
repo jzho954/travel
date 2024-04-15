@@ -14,51 +14,41 @@
   padding-bottom: 2rem;
   width: 100%;
 }
-.about-container .email-section p{
-  width:50%;
+.about-container .email-section p {
+  width: 50%;
   margin: 0;
-  
 }
-.about-container .phone-section p{
-  
-  width:70%;
+.about-container .phone-section p {
+  width: 70%;
   font-size: 20px;
   margin: 0;
   padding: 0 10px;
-  
 }
 .reach-me {
   text-align: center;
-  margin-top: 3rem;
 }
-
 
 .email-section,
 .phone-section {
   display: flex;
-  
+
   margin-top: 1rem; /* Adjust margin as needed */
 }
 
 .contact-info {
   display: flex;
-  width:100%;
+  width: 100%;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
   padding-left: 20px;
 }
 
-
-
 .email-logo,
 .phone-logo {
   width: 60px; /* Adjust size as needed */
   margin-right: 10px;
 }
-
-
-
 
 #pills-tab .nav-link {
   color: #121212; /* Text color */
@@ -71,18 +61,16 @@
 
 #pills-tab .nav-link.active {
   background-color: #fcd116; /* Background color */
-  color: #CE1126; /* Text color */
+  color: #ce1126; /* Text color */
 }
 
-#pills-tab .first{
+#pills-tab .first {
   font-weight: 500;
-
 }
 
-.tab-pane-content{
+.tab-pane-content {
   font-weight: 500;
   font-size: 20px;
-  
+
   margin-top: 20px;
 }
-

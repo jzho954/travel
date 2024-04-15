@@ -10,26 +10,24 @@ const Footer = () => {
                 <p>Contact Me</p>
             </div>
             <div>
-                <a href="/">
-                    <i className="fa-brands fa-facebook-square"></i>
+                <a href="https://linkedin.com/in/jamie-zhou-227451221" target="_blank" >
+                    <i className="fa-brands fa-linkedin"></i>
                 </a>
-                <a href="/">
-                    <i className="fa-brands fa-instagram-square"></i>
+                <a href="https://github.com/jzho954" target="_blank">
+                    <i className="fa-brands fa-github"></i>
                 </a>
-                <a href="/">
+                <a href="#">
                     <i className="fa-brands fa-youtube-square"></i>
                 </a>
-                <a href="/">
-                    <i className="fa-brands fa-twitter-square"></i>
-                </a>
+                
+                
             </div>
         </div>
         <div className='bottom'>
             <div>
                 <h4>Other Links</h4>
-                <a href="/">__ project</a>
-                <a href="/">__ project</a>
-                <a href="/">__ project</a>
+                <a href="https://jzho954.github.io/portfolio-new/" target="_blank">Portfolio project</a>
+                
                 
             </div>
         </div>

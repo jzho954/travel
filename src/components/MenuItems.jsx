@@ -22,6 +22,13 @@ export const MenuItems = [
         icon : "fa-solid fa-earth-americas"
 
     },
+    {
+        title :'Photos',
+        url : "/photos",
+        cName : 'nav-links',
+        icon : "fa-solid fa-photo-film"
+
+    },
 
     {
         title :'Contact Me',

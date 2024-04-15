@@ -9,6 +9,9 @@
   height: 70vh;
   position: relative;
 }
+.hero .bg-image{
+  opacity: 0.9;
+}
 
 .hero-countries {
   width: 100%;
