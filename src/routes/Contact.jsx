@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import AboutImage from '../assets/contact.jpg'
 import Hero from '../components/Hero'
 import ContactForm from '../components/ContactForm'
+import Navbar from '../components/Navbar';
 
 const Contact = () => {
   const scrollToVideo = () => {
@@ -22,6 +23,7 @@ const Contact = () => {
   }, [location]);
   return (
     <>
+    <Navbar/>
     <div className="hero-contact-wrapper">
       <Hero 
         cName="hero-contact"

@@ -34,25 +34,25 @@ const AboutMe = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                     <Container className='reach-me'>
-  <h1>How To Reach Me</h1>
-  <Row className='contact-info'>
-    <Col>
-      <Row className='email-section'>
-        <img className="email-logo" src={email} alt="Email" />
-        <p>jamiezhou777@gmail.com</p>
-      </Row>
-    </Col>
-  </Row>
-  <Row className='contact-info'>
-    <Col>
-      <Row className='phone-section'>
-        <img className='phone-logo' src={phone} alt="Phone" />
-        <p>+64 220890142</p>
-      </Row>
-    </Col>
-  </Row>
-  <img className='bg-image' src={""} alt="" />
-</Container>
+                      <h1>How To Reach Me</h1>
+                      <Row className='contact-info'>
+                        <Col>
+                          <Row className='email-section'>
+                            <img className="email-logo" src={email} alt="Email" />
+                            <p>jamiezhou777@gmail.com</p>
+                          </Row>
+                        </Col>
+                      </Row>
+                      <Row className='contact-info'>
+                        <Col>
+                          <Row className='phone-section'>
+                            <img className='phone-logo' src={phone} alt="Phone" />
+                            <p>+64 220890142</p>
+                          </Row>
+                        </Col>
+                      </Row>
+                      <img className='bg-image' src={""} alt="" />
+                    </Container>
 
                     </Tab.Pane>
                     

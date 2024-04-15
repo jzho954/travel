@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import AboutImage from '../assets/thai.jpg'
 import Footer from '../components/Footer'
 import AboutMe from '../components/AboutMe'
+import Navbar from '../components/Navbar';
 
 
 const About = () => {
@@ -17,7 +18,7 @@ const About = () => {
   }, [pathname]);
   return (
     <>
-        
+        <Navbar/>
         <Hero 
         cName="hero-about"
         heroImage={AboutImage}

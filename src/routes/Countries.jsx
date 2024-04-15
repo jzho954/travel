@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Trip from '../components/Trip';
 import CountryList from '../components/CountryList';
 import { useLocation } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 const Countries = () => {
   const {location} = useLocation();
@@ -18,6 +19,7 @@ const Countries = () => {
 
   return (
     <>
+    <Navbar/>
       <Hero 
         cName="hero-countries"
         heroImage={AboutImage}
