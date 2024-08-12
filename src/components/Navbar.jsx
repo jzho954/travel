@@ -53,7 +53,7 @@ class Navbar extends Component {
             </li>
           ))}
 
-          <div className='dropdown-container'>
+          {/* <div className='dropdown-container'>
             <Dropdown
                 className='custom-dropdown1'
               show={this.state.dropdownOpen}
@@ -70,7 +70,7 @@ class Navbar extends Component {
                 <Dropdown.Item href='/korea'>Korea</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-          </div>
+          </div> */}
         </ul>
       </nav>
     );

@@ -31,8 +31,10 @@
   width: 45%;
   text-align: start;
   font-size: 1.1rem;
+  
 }
-country1-text h2 {
+
+.country1-text h2 {
   padding-bottom: 1rem;
 }
 
@@ -58,6 +60,9 @@ country1-text h2 {
   right: 0;
 }
 
+.country-info p {
+  padding:1rem;
+}
 
 /*/ small screen/*/
 @media screen and (max-width: 800px) {

@@ -12,6 +12,7 @@ const CountryInfo = (props) => {
         <div className="ratio ratio-16x9">
           <iframe src={props.videoUrl} title={props.videoTitle} allowFullScreen></iframe>
         </div>
+        <p>{props.description}</p>
 
         <div className='country-image'>
           {props.image1 && <img src={props.image1} alt="Image 1" />}

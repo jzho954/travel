@@ -27,6 +27,7 @@ const Footer = () => {
             <div>
                 <h4>Other Links</h4>
                 <a href="https://jzho954.github.io/portfolio-new/" target="_blank">Portfolio project</a>
+                <a href="https://www.healthstarcalcnz.online/" target="_blank">Health Star Calculator for client</a>
                 
                 
             </div>

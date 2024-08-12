@@ -9,6 +9,7 @@ import Countries from "./routes/Countries";
 import Vietnam from "./routes/Vietnam";
 import Thailand from "./routes/Thailand";
 import Korea from "./routes/Korea";
+import Colombia from "./routes/Colombia";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Photos from "./routes/Photos";
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/vietnam" element={<Vietnam />} />
         <Route path="/thailand" element={<Thailand />} />
         <Route path="/korea" element={<Korea />} />
+        <Route path="/colombia" element={<Colombia />} />
         <Route path="/photos" element={<Photos />} />
       </Routes>
 
